@@ -24,6 +24,13 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "AWS DeepComposer - Generative AI Case Study",
+      description: "Explored AWS DeepComposer for generative AI through music composition, working with GANs, AR-CNN, and Transformers using Amazon SageMaker and S3",
+      tech: ["AWS", "Generative AI", "Machine Learning", "SageMaker", "S3"],
+      gradient: "from-yellow-600 to-orange-600",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_awscasestudy-awsdeepcomposer-generativeai-activity-7349520369956831233-XabA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "Python Menu-Based System",
       description: "Interactive menu-based application developed during LinuxWorld Informatics internship, showcasing Python programming skills and system development",
       tech: ["Python", "Linux", "System Development", "Menu Interface"],
