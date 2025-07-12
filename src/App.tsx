@@ -90,7 +90,7 @@ function App() {
         <Skills />
         <Certifications />
         <Contact />
-        <Footer />
+        
       </div>
     </div>
   );
