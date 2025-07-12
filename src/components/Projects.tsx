@@ -92,10 +92,15 @@ const Projects = () => {
                   <Github className="w-5 h-5" />
                   Code
                 </button>
-                <button className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20">
+                <a 
+                  href="https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20"
+                >
                   <ExternalLink className="w-5 h-5" />
                   View Project
-                </button>
+                </a>
               </div>
             </div>
           ))}
