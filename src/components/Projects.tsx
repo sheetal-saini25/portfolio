@@ -94,7 +94,7 @@ const Projects = () => {
                 </button>
                 <button className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20">
                   <ExternalLink className="w-5 h-5" />
-                  Live Demo
+                  View Project
                 </button>
               </div>
             </div>
