@@ -27,8 +27,7 @@ const Projects = () => {
       title: "Python Menu-Based System",
       description: "Interactive menu-based application developed during LinuxWorld Informatics internship, showcasing Python programming skills and system development",
       tech: ["Python", "Linux", "System Development", "Menu Interface"],
-      gradient: "from-orange-600 to-red-600",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-linuxworld-internship-activity-7342933092719812608-yMew?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+      gradient: "from-orange-600 to-red-600"
     },
     {
       title: "JavaScript Automation with Geolocation",
