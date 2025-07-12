@@ -24,10 +24,18 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "Python Menu-Based System",
+      description: "Interactive menu-based application developed during LinuxWorld Informatics internship, showcasing Python programming skills and system development",
+      tech: ["Python", "Linux", "System Development", "Menu Interface"],
+      gradient: "from-orange-600 to-red-600",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-linuxworld-internship-activity-7342933092719812608-yMew?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "JavaScript Automation with Geolocation",
       description: "Advanced automation task using JavaScript with geolocation APIs for location-based functionality and web development",
       tech: ["JavaScript", "Geolocation API", "Web APIs", "HTML5"],
-      gradient: "from-green-600 to-blue-600"
+      gradient: "from-green-600 to-blue-600",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "DevOps Pipeline Automation",
@@ -92,15 +100,22 @@ const Projects = () => {
                   <Github className="w-5 h-5" />
                   Code
                 </button>
-                <a 
-                  href="https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20"
-                >
-                  <ExternalLink className="w-5 h-5" />
-                  View Project
-                </a>
+                {project.linkedinUrl ? (
+                  <a 
+                    href={project.linkedinUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20"
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                    View Project
+                  </a>
+                ) : (
+                  <button className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-purple-500/20">
+                    <ExternalLink className="w-5 h-5" />
+                    View Project
+                  </button>
+                )}
               </div>
             </div>
           ))}
