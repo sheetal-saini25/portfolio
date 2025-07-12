@@ -73,15 +73,6 @@ const About = () => {
               <p className="text-white/80 leading-relaxed mb-8 text-lg">
                 Currently expanding my skills through hands-on experience with modern development tools and cloud technologies, I'm committed to building innovative solutions that make a difference.
               </p>
-              <a
-                href="https://www.linkedin.com/posts/sheetal-saini-b33273371_awscasestudy-awsdeepcomposer-generativeai-activity-7349520369956831233-XabA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 mb-6 bg-gradient-to-r from-yellow-400 to-orange-500 text-white rounded-2xl font-semibold shadow-lg hover:scale-110 transition-all duration-300 border border-yellow-400/40"
-              >
-                <svg xmlns='http://www.w3.org/2000/svg' className='w-5 h-5' fill='none' viewBox='0 0 24 24' stroke='currentColor'><path strokeLinecap='round' strokeLinejoin='round' strokeWidth={2} d='M14 3v4a1 1 0 001 1h4m-5 13H5a2 2 0 01-2-2V5a2 2 0 012-2h7m5 5l-6 6m0 0l-2-2m2 2V9' /></svg>
-                View My AWS DeepComposer Project
-              </a>
               <div className="flex items-center gap-3">
                 <Rocket className="w-6 h-6 text-purple-400 animate-bounce" />
                 <span className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text font-semibold text-lg">Always learning, always growing</span>
