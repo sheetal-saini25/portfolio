@@ -41,7 +41,7 @@ const Projects = () => {
       description: "Modern web application with React frontend and Node.js backend, deployed on cloud",
       tech: ["React", "Node.js", "MongoDB", "AWS"],
       gradient: "from-pink-600 to-blue-600",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_awscasestudy-awsdeepcomposer-generativeai-activity-7349520369956831233-XabA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_cocacola-aws-cloudcomputing-activity-7349135894471176193-s7_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "Machine Learning Model",
