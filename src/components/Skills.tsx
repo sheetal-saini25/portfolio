@@ -69,33 +69,18 @@ const Skills = () => {
                 <h3 className="text-xl font-bold text-white">{category.title}</h3>
               </div>
 
-              <div className="space-y-4">
-                {category.skills.map((skill, skillIndex) => (
-                  <div key={skillIndex} className="flex items-center gap-3 p-3 bg-white/10 backdrop-blur-lg rounded-2xl hover:bg-white/20 transition-all duration-300 border border-purple-500/20 hover:scale-105">
-                    <div className="w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse"></div>
-                    <span className="text-white font-medium">{skill}</span>
-                  </div>
-                ))}
-              </div>
+              {/* Skills List */}
+              {category.skills.map((skill, skillIndex) => (
+                <div key={skillIndex} className="flex items-center gap-3 p-3 bg-white/10 backdrop-blur-lg rounded-2xl hover:bg-white/20 transition-all duration-300 border border-purple-500/20 hover:scale-105">
+                  <div className="w-3 h-3 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full animate-pulse"></div>
+                  <span className="text-white font-medium">{skill}</span>
+                </div>
+              ))}
             </div>
           ))}
         </div>
 
-        {/* Enhanced floating skill bubbles */}
-        <div className={`relative transition-all duration-1000 delay-800 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-          <h3 className="text-3xl font-bold text-white text-center mb-12">
-            Core Competencies
-          </h3>
-          <div className="flex flex-wrap justify-center gap-6 max-w-5xl mx-auto">
-            {['Linux', 'Full Stack Development', 'Machine Learning', 'DevOps', 'Agentic AI'].map((skill, index) => (
-              <div key={index} className="group">
-                <div className={`px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white rounded-full font-semibold shadow-2xl hover:shadow-purple-500/50 transition-all duration-500 hover:scale-125 cursor-pointer animate-float border border-purple-400/30 delay-${index * 100} animate-glow`}>
-                  {skill}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
+        {/* Remove Core Competencies section here */}
       </div>
     </section>
   );
