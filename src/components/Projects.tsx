@@ -24,12 +24,6 @@ const Projects = () => {
 
   const projects = [
     {
-      title: "Python Menu-Based System",
-      description: "Interactive menu-based application developed during LinuxWorld Informatics internship, showcasing Python programming skills and system development",
-      tech: ["Python", "Linux", "System Development", "Menu Interface"],
-      gradient: "from-orange-600 to-red-600"
-    },
-    {
       title: "JavaScript Automation with Geolocation",
       description: "Advanced automation task using JavaScript with geolocation APIs for location-based functionality and web development",
       tech: ["JavaScript", "Geolocation API", "Web APIs", "HTML5"],
