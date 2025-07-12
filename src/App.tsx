@@ -86,11 +86,11 @@ function App() {
         <About />
         <Education />
         <Experience />
-        <Projects />
+       
         <Skills />
         <Certifications />
         <Contact />
-        
+        <Footer />
       </div>
     </div>
   );
