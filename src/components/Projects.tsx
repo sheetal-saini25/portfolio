@@ -34,7 +34,8 @@ const Projects = () => {
       title: "DevOps Pipeline Automation",
       description: "Automated CI/CD pipeline using Jenkins, Docker, and Kubernetes for seamless deployment",
       tech: ["Jenkins", "Docker", "Kubernetes", "Git"],
-      gradient: "from-purple-600 to-pink-600"
+      gradient: "from-purple-600 to-pink-600",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "Full Stack Web Application",
