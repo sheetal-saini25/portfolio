@@ -24,6 +24,12 @@ const Projects = () => {
 
   const projects = [
     {
+      title: "JavaScript Automation with Geolocation",
+      description: "Advanced automation task using JavaScript with geolocation APIs for location-based functionality and web development",
+      tech: ["JavaScript", "Geolocation API", "Web APIs", "HTML5"],
+      gradient: "from-green-600 to-blue-600"
+    },
+    {
       title: "DevOps Pipeline Automation",
       description: "Automated CI/CD pipeline using Jenkins, Docker, and Kubernetes for seamless deployment",
       tech: ["Jenkins", "Docker", "Kubernetes", "Git"],
