@@ -38,9 +38,9 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_awscasestudy-awsdeepcomposer-generativeai-activity-7349520369956831233-XabA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
-      title: "JavaScript Automation with Geolocation",
-      description: "Advanced automation task using JavaScript with geolocation APIs for location-based functionality and web development",
-      tech: ["JavaScript", "Geolocation API", "Web APIs", "HTML5"],
+      title: "Advanced JavaScript Web Application",
+      description: "Comprehensive web application with real-time, user-centric functionalities using pure JavaScript. Features include geolocation services, camera/video capture, email/WhatsApp integration, live navigation, and user activity tracking for engagement insights.",
+      tech: ["JavaScript", "Geolocation API", "Camera API", "Google Maps API", "WhatsApp API", "Email API"],
       gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
