@@ -31,6 +31,13 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-twilio-activity-7348274532522065920-8HCo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "Instagram Automation with Python",
+      description: "Internship project automating Instagram photo posting using Python and the instagrapi library. Successfully logged in, uploaded a photo with a caption, and learned real-world API-based automation for social media tasks.",
+      tech: ["Python", "instagrapi", "Instagram API", "Automation", "Internship"],
+      gradient: "from-primary-500 to-primary-400",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-internshipproject-instagramautomation-activity-7347550407201599488-HTbz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "AWS DeepComposer - Generative AI Case Study",
       description: "Explored AWS DeepComposer to learn Generative AI through interactive music composition. Composed music using AI models like GANs, AR-CNN, and Transformers with both virtual and physical MIDI keyboards. Trained custom AI models using Amazon SageMaker and managed datasets via S3.",
       tech: ["AWS DeepComposer", "Generative AI", "Amazon SageMaker", "S3", "Jupyter Notebooks", "MIDI"],
