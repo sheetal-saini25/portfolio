@@ -52,6 +52,13 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_microsoft-kubernetes-azure-activity-7347340639983886336-m5XK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "Dream Analyzer & Sweet Dreams Tips (LLM Streamlit App)",
+      description: "A Streamlit web app built during LinuxWorld Internship. Uses a Large Language Model (LLM) to analyze dream types and provide personalized sleep tips for mental wellness. Enter your dream, get insights and AI-powered advice for better sleep.",
+      tech: ["Python", "Streamlit", "LLM", "AI", "Mental Health", "Internship"],
+      gradient: "from-primary-400 to-primary-300",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linuxworldinternship-streamlit-llm-activity-7346014871454429184-jgf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "AWS DeepComposer - Generative AI Case Study",
       description: "Explored AWS DeepComposer to learn Generative AI through interactive music composition. Composed music using AI models like GANs, AR-CNN, and Transformers with both virtual and physical MIDI keyboards. Trained custom AI models using Amazon SageMaker and managed datasets via S3.",
       tech: ["AWS DeepComposer", "Generative AI", "Amazon SageMaker", "S3", "Jupyter Notebooks", "MIDI"],
