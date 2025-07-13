@@ -45,12 +45,6 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
-      title: "Java Project 2",
-      description: "Second Java project showcasing advanced Java programming techniques and application development",
-      tech: ["Java", "Spring Framework", "Database", "REST APIs"],
-      gradient: "from-primary-50 to-primary-100"
-    },
-    {
       title: "Machine Learning Model",
       description: "Predictive analytics model using Python and scikit-learn for data analysis",
       tech: ["Python", "scikit-learn", "Pandas", "NumPy"],
@@ -75,7 +69,7 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {projects.filter(project => project.title !== 'Java Project 1').map((project, index) => (
+          {projects.filter(project => project.title !== 'Java Project 2').map((project, index) => (
             <div key={index} className={`group bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
               <div className="flex items-center gap-4 mb-6">
                 <div className={`p-3 rounded-2xl bg-gradient-to-r ${project.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300 animate-glow`}>
