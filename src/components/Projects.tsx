@@ -104,6 +104,13 @@ const Projects = () => {
       tech: ["Python", "Streamlit", "WhatsApp API", "Twilio or pywhatkit", "HTML/CSS", "Full Stack", "LinuxWorld"],
       gradient: "from-primary-500 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_streamlit-python-linuxworld-activity-7342928552662552577-IVDt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
+      title: "JavaScript Web Development: Real-Time User-Centric Features",
+      description: "A comprehensive JavaScript project implementing real-time, user-centric functionalities using pure JavaScript. Features include geolocation API for current location, Google Maps + Places API for nearby grocery stores, camera/video capture, email sending, WhatsApp messaging via API, live routes & navigation, and user activity tracking for engagement insights.",
+      tech: ["JavaScript", "Geolocation API", "Google Maps API", "Places API", "Camera API", "Email API", "WhatsApp API", "Navigation API", "Frontend Development"],
+      gradient: "from-primary-400 to-primary-200",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
