@@ -27,21 +27,21 @@ const Education = () => {
       title: "Post Graduate Diploma in Computer Applications (PGDCA)",
       description: "Completed with practical exposure to software development, system programming, and database management",
       icon: <Award className="w-7 h-7" />,
-      color: "from-purple-600 to-pink-600"
+      color: "from-primary-600 to-primary-500"
     },
     {
       title: "Bachelor of Science in Computer Science (B.Sc. in CS)",
       institution: "Government College Swami Vivekanand, Harda, Madhya Pradesh",
       description: "Focused on core computer science fundamentals and programming",
       icon: <GraduationCap className="w-7 h-7" />,
-      color: "from-pink-600 to-blue-600"
+      color: "from-primary-500 to-primary-400"
     },
     {
       title: "Higher Secondary Schooling (12th Grade)",
       institution: "School in Madhya Pradesh",
       description: "Stream: Mathematics and Science",
       icon: <BookOpen className="w-7 h-7" />,
-      color: "from-blue-600 to-purple-600"
+      color: "from-primary-400 to-primary-300"
     }
   ];
 
@@ -52,13 +52,13 @@ const Education = () => {
           <h2 className="text-6xl font-bold text-white mb-6">
             Education
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 mx-auto rounded-full animate-glow"></div>
+          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full animate-glow"></div>
         </div>
 
         <div className="max-w-5xl mx-auto">
           <div className="relative">
             {/* Enhanced Timeline line */}
-            <div className="absolute left-10 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 via-pink-500 to-blue-500 rounded-full animate-glow"></div>
+            <div className="absolute left-10 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-500 via-primary-400 to-primary-300 rounded-full animate-glow"></div>
 
             <div className="space-y-16">
               {educationData.map((item, index) => (
@@ -69,15 +69,15 @@ const Education = () => {
                   </div>
 
                   {/* Enhanced Content */}
-                  <div className="flex-1 bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-purple-500/20 transition-all duration-500 group-hover:scale-105 border border-purple-500/20 hover:border-purple-400/40">
+                  <div className="flex-1 bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 group-hover:scale-105 border border-primary-500/20 hover:border-primary-400/40">
                     <div className="flex items-start gap-4 mb-6">
-                      <Calendar className="w-6 h-6 text-purple-400 mt-1 animate-pulse" />
+                      <Calendar className="w-6 h-6 text-primary-400 mt-1 animate-pulse" />
                       <div>
                         <h3 className="text-2xl font-bold text-white mb-3">
                           {item.title}
                         </h3>
                         {item.institution && (
-                          <p className="text-transparent bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text font-semibold mb-3 text-lg">{item.institution}</p>
+                          <p className="text-transparent bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text font-semibold mb-3 text-lg">{item.institution}</p>
                         )}
                         <p className="text-white/80 leading-relaxed text-lg">{item.description}</p>
                       </div>

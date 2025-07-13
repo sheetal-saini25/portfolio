@@ -49,14 +49,14 @@ const Contact = () => {
           <h2 className="text-6xl font-bold text-white mb-6">
             Get In Touch
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 mx-auto rounded-full animate-glow"></div>
+          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full animate-glow"></div>
         </div>
 
         <div className="max-w-7xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Contact Info */}
             <div className={`space-y-10 transition-all duration-1000 delay-200 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
-              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-purple-500/20 hover:scale-105 transition-all duration-500 hover:border-purple-400/40">
+              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20 hover:scale-105 transition-all duration-500 hover:border-primary-400/40">
                 <h3 className="text-3xl font-bold text-white mb-8">
                   Let's Connect
                 </h3>
@@ -67,7 +67,7 @@ const Contact = () => {
 
                 <div className="space-y-8">
                   <div className="flex items-center gap-6">
-                    <div className="p-4 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl shadow-lg animate-glow">
+                    <div className="p-4 bg-gradient-to-r from-primary-600 to-primary-500 rounded-2xl shadow-lg animate-glow">
                       <Mail className="w-7 h-7 text-white" />
                     </div>
                     <div>
@@ -77,7 +77,7 @@ const Contact = () => {
                   </div>
 
                   <div className="flex items-center gap-6">
-                    <div className="p-4 bg-gradient-to-r from-pink-600 to-blue-600 rounded-2xl shadow-lg animate-glow">
+                    <div className="p-4 bg-gradient-to-r from-primary-500 to-primary-400 rounded-2xl shadow-lg animate-glow">
                       <MapPin className="w-7 h-7 text-white" />
                     </div>
                     <div>
@@ -87,13 +87,13 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <div className="mt-12 pt-8 border-t border-purple-500/20">
+                <div className="mt-12 pt-8 border-t border-primary-500/20">
                   <p className="text-white/80 mb-6 text-lg">Follow me on social media:</p>
                   <div className="flex gap-6">
-                    <a href="https://github.com/sheetal-saini25" target="_blank" rel="noopener noreferrer" className="p-4 bg-gray-900/50 backdrop-blur-lg text-white rounded-2xl hover:bg-gray-800/50 transition-all duration-300 hover:scale-125 border border-purple-500/20 shadow-lg">
+                    <a href="https://github.com/sheetal-saini25" target="_blank" rel="noopener noreferrer" className="p-4 bg-dark-800/50 backdrop-blur-lg text-white rounded-2xl hover:bg-dark-700/50 transition-all duration-300 hover:scale-125 border border-primary-500/20 shadow-lg">
                       <Github className="w-7 h-7" />
                     </a>
-                    <a href="https://linkedin.com/in/sheetal-saini-b33273371" target="_blank" rel="noopener noreferrer" className="p-4 bg-blue-600/50 backdrop-blur-lg text-white rounded-2xl hover:bg-blue-700/50 transition-all duration-300 hover:scale-125 border border-purple-500/20 shadow-lg">
+                    <a href="https://linkedin.com/in/sheetal-saini-b33273371" target="_blank" rel="noopener noreferrer" className="p-4 bg-primary-600/50 backdrop-blur-lg text-white rounded-2xl hover:bg-primary-700/50 transition-all duration-300 hover:scale-125 border border-primary-500/20 shadow-lg">
                       <Linkedin className="w-7 h-7" />
                     </a>
                   </div>
@@ -102,7 +102,7 @@ const Contact = () => {
             </div>
 
             {/* Contact Form */}
-            <div className={`bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-purple-500/20 hover:scale-105 transition-all duration-1000 delay-400 hover:border-purple-400/40 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}>
+            <div className={`bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20 hover:scale-105 transition-all duration-1000 delay-400 hover:border-primary-400/40 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}>
               <h3 className="text-3xl font-bold text-white mb-8">
                 Send me a message
               </h3>
@@ -126,7 +126,7 @@ const Contact = () => {
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-purple-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent transition-all duration-300 text-white placeholder-white/50"
+                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-primary-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300 text-white placeholder-white/50"
                     placeholder="Your name"
                   />
                 </div>
@@ -142,7 +142,7 @@ const Contact = () => {
                     value={formData.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-purple-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent transition-all duration-300 text-white placeholder-white/50"
+                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-primary-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300 text-white placeholder-white/50"
                     placeholder="your.email@example.com"
                   />
                 </div>
@@ -158,14 +158,14 @@ const Contact = () => {
                     onChange={handleChange}
                     required
                     rows={6}
-                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-purple-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-purple-400 focus:border-transparent transition-all duration-300 resize-none text-white placeholder-white/50"
+                    className="w-full px-6 py-4 bg-white/10 backdrop-blur-lg border border-primary-500/20 rounded-2xl focus:outline-none focus:ring-2 focus:ring-primary-400 focus:border-transparent transition-all duration-300 resize-none text-white placeholder-white/50"
                     placeholder="Tell me about your project or just say hello..."
                   />
                 </div>
 
                 <button
                   type="submit"
-                  className="w-full px-8 py-4 bg-gradient-to-r from-purple-600 via-pink-600 to-blue-600 text-white font-semibold rounded-2xl hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 border border-purple-400/30 animate-glow"
+                  className="w-full px-8 py-4 bg-gradient-to-r from-primary-600 via-primary-500 to-primary-400 text-white font-semibold rounded-2xl hover:shadow-2xl hover:shadow-primary-500/50 hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 border border-primary-400/30 animate-glow"
                 >
                   <Send className="w-6 h-6" />
                   Send Message
