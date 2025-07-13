@@ -97,6 +97,13 @@ const Projects = () => {
       description: "Intelligent assistant leveraging LLMs for task automation and decision making",
       tech: ["Python", "OpenAI API", "LangChain", "Flask"],
       gradient: "from-primary-200 to-primary-300"
+    },
+    {
+      title: "Music Festival Ticket Booking WebApp: EVENT PASS",
+      description: "A 4-page Streamlit web application for booking music festival tickets. Features an attractive landing page, user registration, QR-based payment simulation, ticket verification, and WhatsApp confirmation on successful booking. Enhanced full-stack Python skills and frontend-backend integration with WhatsApp automation.",
+      tech: ["Python", "Streamlit", "WhatsApp API", "Twilio or pywhatkit", "HTML/CSS", "Full Stack", "LinuxWorld"],
+      gradient: "from-primary-500 to-primary-300",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_streamlit-python-linuxworld-activity-7342928552662552577-IVDt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
