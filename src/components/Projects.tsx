@@ -111,6 +111,13 @@ const Projects = () => {
       tech: ["JavaScript", "Geolocation API", "Google Maps API", "Places API", "Camera API", "Email API", "WhatsApp API", "Navigation API", "Frontend Development"],
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
+      title: "Coca-Cola AWS Cloud Computing Case Study",
+      description: "A comprehensive analysis of how Coca-Cola leverages Amazon Web Services (AWS) to boost efficiency, innovation, and global operations. After migrating from traditional data centers to AWS cloud, Coca-Cola achieved 40% IT cost reduction, 80% fewer support tickets, and faster development cycles. Highlights include Coca-Cola Andina's data lake implementation serving 54 million+ consumers across South America, 80% improved analytics productivity, and serverless technologies enabling touchless experiences like the Freestyle beverage dispenser developed in 150 days.",
+      tech: ["AWS", "Cloud Computing", "Data Lake", "Serverless", "Analytics", "Digital Transformation", "Case Study", "Business Growth"],
+      gradient: "from-primary-600 to-primary-400",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_cocacola-aws-cloudcomputing-activity-7349135894471176193-s7_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
