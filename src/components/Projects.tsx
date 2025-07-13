@@ -31,49 +31,56 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-twilio-activity-7348274532522065920-8HCo?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "AWS DeepComposer - Generative AI Case Study",
+      description: "Explored AWS DeepComposer to learn Generative AI through interactive music composition. Composed music using AI models like GANs, AR-CNN, and Transformers with both virtual and physical MIDI keyboards. Trained custom AI models using Amazon SageMaker and managed datasets via S3.",
+      tech: ["AWS DeepComposer", "Generative AI", "Amazon SageMaker", "S3", "Jupyter Notebooks", "MIDI"],
+      gradient: "from-primary-500 to-primary-400",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_awscasestudy-awsdeepcomposer-generativeai-activity-7349520369956831233-XabA?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "JavaScript Automation with Geolocation",
       description: "Advanced automation task using JavaScript with geolocation APIs for location-based functionality and web development",
       tech: ["JavaScript", "Geolocation API", "Web APIs", "HTML5"],
-      gradient: "from-primary-500 to-primary-400",
+      gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "DevOps Pipeline Automation",
       description: "Automated CI/CD pipeline using Jenkins, Docker, and Kubernetes for seamless deployment",
       tech: ["Jenkins", "Docker", "Kubernetes", "Git"],
-      gradient: "from-primary-400 to-primary-300",
+      gradient: "from-primary-300 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "Full Stack Web Application",
       description: "Modern web application with React frontend and Node.js backend, deployed on cloud",
       tech: ["React", "Node.js", "MongoDB", "AWS"],
-      gradient: "from-primary-300 to-primary-200",
+      gradient: "from-primary-200 to-primary-100",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_cocacola-aws-cloudcomputing-activity-7349135894471176193-s7_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
       title: "Java Project 1",
       description: "First Java project demonstrating object-oriented programming concepts and software development best practices",
       tech: ["Java", "OOP", "Data Structures", "Algorithms"],
-      gradient: "from-primary-200 to-primary-100"
+      gradient: "from-primary-100 to-primary-50"
     },
     {
       title: "Java Project 2",
       description: "Second Java project showcasing advanced Java programming techniques and application development",
       tech: ["Java", "Spring Framework", "Database", "REST APIs"],
-      gradient: "from-primary-100 to-primary-50"
+      gradient: "from-primary-50 to-primary-100"
     },
     {
       title: "Machine Learning Model",
       description: "Predictive analytics model using Python and scikit-learn for data analysis",
       tech: ["Python", "scikit-learn", "Pandas", "NumPy"],
-      gradient: "from-primary-50 to-primary-100"
+      gradient: "from-primary-100 to-primary-200"
     },
     {
       title: "Agentic AI Assistant",
       description: "Intelligent assistant leveraging LLMs for task automation and decision making",
       tech: ["Python", "OpenAI API", "LangChain", "Flask"],
-      gradient: "from-primary-100 to-primary-200"
+      gradient: "from-primary-200 to-primary-300"
     }
   ];
 
