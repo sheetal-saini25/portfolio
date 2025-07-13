@@ -38,6 +38,13 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-internshipproject-instagramautomation-activity-7347550407201599488-HTbz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "Automated WhatsApp Messaging with Python",
+      description: "Created a WhatsApp bot using Python and pywhatkit to automate sending and scheduling messages. Useful for reminders, alerts, and personal tasks. Demonstrates efficient, real-world communication automation.",
+      tech: ["Python", "pywhatkit", "WhatsApp API", "Automation", "MiniProject"],
+      gradient: "from-primary-400 to-primary-300",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-whatsappbot-activity-7347541510701121536-UjKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "AWS DeepComposer - Generative AI Case Study",
       description: "Explored AWS DeepComposer to learn Generative AI through interactive music composition. Composed music using AI models like GANs, AR-CNN, and Transformers with both virtual and physical MIDI keyboards. Trained custom AI models using Amazon SageMaker and managed datasets via S3.",
       tech: ["AWS DeepComposer", "Generative AI", "Amazon SageMaker", "S3", "Jupyter Notebooks", "MIDI"],
