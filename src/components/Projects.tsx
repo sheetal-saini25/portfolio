@@ -45,20 +45,6 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
-      title: "Full Stack Web Application",
-      description: "Modern web application with React frontend and Node.js backend, deployed on cloud",
-      tech: ["React", "Node.js", "MongoDB", "AWS"],
-      gradient: "from-primary-200 to-primary-100",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_cocacola-aws-cloudcomputing-activity-7349135894471176193-s7_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
-    },
-    {
-      title: "Advanced JavaScript Web Application",
-      description: "Comprehensive web application with real-time, user-centric functionalities using pure JavaScript. Features include geolocation services, camera/video capture, email/WhatsApp integration, live navigation, and user activity tracking for engagement insights.",
-      tech: ["JavaScript", "Geolocation API", "Camera API", "Google Maps API", "WhatsApp API", "Email API"],
-      gradient: "from-primary-400 to-primary-300",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
-    },
-    {
       title: "Java Project 1",
       description: "First Java project demonstrating object-oriented programming concepts and software development best practices",
       tech: ["Java", "OOP", "Data Structures", "Algorithms"],
@@ -95,7 +81,7 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {projects.filter(project => project.title !== 'JavaScript Automation with Geolocation' && project.title !== 'Advanced JavaScript Web Application').map((project, index) => (
+          {projects.filter(project => project.title !== 'Full Stack Web Application').map((project, index) => (
             <div key={index} className={`group bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
               <div className="flex items-center gap-4 mb-6">
                 <div className={`p-3 rounded-2xl bg-gradient-to-r ${project.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300 animate-glow`}>
