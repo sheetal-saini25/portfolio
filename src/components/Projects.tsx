@@ -45,6 +45,13 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "Linux Tech Vlog: Why Companies Use Linux?",
+      description: "A tech vlog and open source advocacy post explaining why major companies (Google, Amazon, Netflix, NASA, etc.) rely on Linux. Covers customizability, cost savings, security, stability, cloud/DevOps friendliness, and real-world use cases in industry.",
+      tech: ["Linux", "Open Source", "DevOps", "Cloud", "Security", "Tech Vlog"],
+      gradient: "from-primary-400 to-primary-300",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-techvlog-opensource-activity-7349053598007267328-5nEL?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "Machine Learning Model",
       description: "Predictive analytics model using Python and scikit-learn for data analysis",
       tech: ["Python", "scikit-learn", "Pandas", "NumPy"],
@@ -69,7 +76,7 @@ const Projects = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-10">
-          {projects.filter(project => project.title !== 'Java Project 2').map((project, index) => (
+          {projects.map((project, index) => (
             <div key={index} className={`group bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
               <div className="flex items-center gap-4 mb-6">
                 <div className={`p-3 rounded-2xl bg-gradient-to-r ${project.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300 animate-glow`}>
