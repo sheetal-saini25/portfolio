@@ -45,6 +45,13 @@ const Projects = () => {
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-whatsappbot-activity-7347541510701121536-UjKF?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     },
     {
+      title: "Microsoft Uses Kubernetes (Azure Kubernetes Service)",
+      description: "A deep dive into how Microsoft leverages Kubernetes and Azure Kubernetes Service (AKS) to build, scale, and manage cloud-native applications. Highlights include AKS features, DevOps integration, enterprise security, and open-source contributions.",
+      tech: ["Microsoft", "Kubernetes", "Azure", "AKS", "CloudNative", "DevOps", "OpenSource"],
+      gradient: "from-primary-500 to-primary-400",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_microsoft-kubernetes-azure-activity-7347340639983886336-m5XK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
       title: "AWS DeepComposer - Generative AI Case Study",
       description: "Explored AWS DeepComposer to learn Generative AI through interactive music composition. Composed music using AI models like GANs, AR-CNN, and Transformers with both virtual and physical MIDI keyboards. Trained custom AI models using Amazon SageMaker and managed datasets via S3.",
       tech: ["AWS DeepComposer", "Generative AI", "Amazon SageMaker", "S3", "Jupyter Notebooks", "MIDI"],
