@@ -64,7 +64,8 @@ const Projects = () => {
       description: "Hands-on Python learning experience as an intern at LinuxWorld Informatics Pvt Ltd. Practiced Python using Jupyter Notebook and command prompt, gaining practical understanding of how Python interacts with the system.",
       tech: ["Python", "Jupyter Notebook", "Command Line", "Internship", "LinuxWorld"],
       gradient: "from-primary-300 to-primary-200",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-linuxworld-internship-activity-7342933092719812608-yMew?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-linuxworld-internship-activity-7342933092719812608-yMew?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      githubUrl: "https://github.com/sheetal-saini25/menu_base/blob/main/pages/Python_Tasks.py"
     },
     {
       title: "AWS DeepComposer - Generative AI Case Study",
