@@ -77,7 +77,8 @@ const Projects = () => {
       description: "Automated CI/CD pipeline using Jenkins, Docker, and Kubernetes for seamless deployment",
       tech: ["Jenkins", "Docker", "Kubernetes", "Git"],
       gradient: "from-primary-300 to-primary-200",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      githubUrl: "https://github.com/sheetal-saini25/Devops_project1"
     },
     {
       title: "Linux Tech Vlog: Why Companies Use Linux?",
@@ -154,10 +155,22 @@ const Projects = () => {
               </div>
 
               <div className="flex gap-4">
-                <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20">
-                  <Github className="w-5 h-5" />
-                  Code
-                </button>
+                {project.githubUrl ? (
+                  <a 
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20"
+                  >
+                    <Github className="w-5 h-5" />
+                    Code
+                  </a>
+                ) : (
+                  <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20">
+                    <Github className="w-5 h-5" />
+                    Code
+                  </button>
+                )}
                 {project.linkedinUrl ? (
                   <a 
                     href={project.linkedinUrl}
