@@ -56,7 +56,8 @@ const Projects = () => {
       description: "A Streamlit web app built during LinuxWorld Internship. Uses a Large Language Model (LLM) to analyze dream types and provide personalized sleep tips for mental wellness. Enter your dream, get insights and AI-powered advice for better sleep.",
       tech: ["Python", "Streamlit", "LLM", "AI", "Mental Health", "Internship"],
       gradient: "from-primary-400 to-primary-300",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linuxworldinternship-streamlit-llm-activity-7346014871454429184-jgf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linuxworldinternship-streamlit-llm-activity-7346014871454429184-jgf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      githubUrl: "https://github.com/sheetal-saini25/dream"
     },
     {
       title: "Python LinuxWorld Internship: Real-Time Practice",
