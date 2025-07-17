@@ -121,6 +121,13 @@ const Projects = () => {
       tech: ["AWS", "Cloud Computing", "Data Lake", "Serverless", "Analytics", "Digital Transformation", "Case Study", "Business Growth"],
       gradient: "from-primary-600 to-primary-400",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_cocacola-aws-cloudcomputing-activity-7349135894471176193-s7_X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
+      title: "Docker in Docker (DIND) DevOps Setup",
+      description: "Configured and ran Docker inside a Docker container (DIND) for modern CI/CD pipelines and containerized development environments. Explored use cases in GitLab CI, Jenkins, and learned about security considerations.",
+      tech: ["Docker", "DIND", "DevOps", "CI/CD", "Containers", "Linux"],
+      gradient: "from-primary-500 to-primary-300",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_docker-dind-devops-activity-7351543731080036352-swHh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
