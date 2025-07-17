@@ -135,6 +135,13 @@ const Projects = () => {
       tech: ["Linux", "Docker", "Python", "Machine Learning", "Flask", "Full Stack", "REST API", "Networking"],
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-docker-machinelearning-activity-7351299049750151170-Dd55?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
+      title: "AWS 84+ Services Learning Journey",
+      description: "Explored 84+ AWS services including EC2, Lambda, S3, and VPC with real-world use cases, team discussions, and production-level understanding. Collaborative learning and presentations under expert mentorship.",
+      tech: ["AWS", "Cloud", "EC2", "Lambda", "S3", "VPC", "Teamwork", "Tech Exposure"],
+      gradient: "from-primary-200 to-primary-400",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_aws-services-activity-7350834047725506560-ogGs?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
