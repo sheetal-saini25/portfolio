@@ -145,6 +145,14 @@ const Projects = () => {
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "mini"
+    },
+    {
+      title: "Monitoring System RAM using Python",
+      description: "Analyzed system memory usage using the psutil library in Python. Retrieved total, available, used RAM, RAM usage percentage, and swap memory details. Useful for building performance monitors, dashboards, or automating system health checks.",
+      tech: ["Python", "Jupyter Notebook", "psutil", "System Monitoring", "Automation"],
+      gradient: "from-primary-300 to-primary-500",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-jupyternotebook-systemmonitoring-activity-7350728324945457152-Fk7n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      category: "mini"
     }
   ];
 
