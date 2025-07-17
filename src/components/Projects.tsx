@@ -136,7 +136,7 @@ const Projects = () => {
       tech: ["Python", "Streamlit", "WhatsApp API", "Twilio or pywhatkit", "HTML/CSS", "Full Stack", "LinuxWorld"],
       gradient: "from-primary-500 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_streamlit-python-linuxworld-activity-7342928552662552577-IVDt?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
-      category: "mini"
+      category: "major"
     },
     {
       title: "JavaScript Web Development: Real-Time User-Centric Features",
