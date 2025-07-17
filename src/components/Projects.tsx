@@ -128,6 +128,13 @@ const Projects = () => {
       tech: ["Docker", "DIND", "DevOps", "CI/CD", "Containers", "Linux"],
       gradient: "from-primary-500 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_docker-dind-devops-activity-7351543731080036352-swHh?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
+    },
+    {
+      title: "Linux, Docker, Python & Machine Learning Hands-on Projects",
+      description: "Hands-on with real-world tech tasks: Linux networking, Docker container management, Python scripting, and machine learning projects (house price prediction, salary prediction, error visualization). Built Flask full stack apps and REST APIs.",
+      tech: ["Linux", "Docker", "Python", "Machine Learning", "Flask", "Full Stack", "REST API", "Networking"],
+      gradient: "from-primary-400 to-primary-200",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-docker-machinelearning-activity-7351299049750151170-Dd55?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ"
     }
   ];
 
