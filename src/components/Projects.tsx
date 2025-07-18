@@ -119,7 +119,7 @@ const Projects = () => {
       gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linuxworldinternship-streamlit-llm-activity-7346014871454429184-jgf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       githubUrl: "https://github.com/sheetal-saini25/dream",
-      category: "major"
+      category: "mini"
     },
     {
       title: "Python LinuxWorld Internship: Real-Time Practice",
