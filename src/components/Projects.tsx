@@ -232,42 +232,42 @@ const Projects = () => {
         </div>
 
         <h3 className="text-4xl font-semibold text-white mb-8 mt-12">Mini Projects</h3>
-        <div className="grid md:grid-cols-2 gap-10 mb-16">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {miniProjects.map((project, index) => (
-            <div key={index} className={`group bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
-              <div className="flex items-center gap-4 mb-6">
-                <div className={`p-3 rounded-2xl bg-gradient-to-r ${project.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300 animate-glow`}>
-                  <Code className="w-6 h-6" />
+            <div key={index} className={`group bg-white/10 backdrop-blur-xl rounded-2xl p-6 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
+              <div className="flex items-center gap-3 mb-4">
+                <div className={`p-2 rounded-xl bg-gradient-to-r ${project.gradient} text-white shadow-lg group-hover:scale-110 transition-transform duration-300 animate-glow`}>
+                  <Code className="w-5 h-5" />
                 </div>
-                <h3 className="text-2xl font-bold text-white">
+                <h3 className="text-xl font-bold text-white">
                   {project.title}
                 </h3>
               </div>
 
-              <p className="text-white/80 leading-relaxed mb-8 text-lg">{project.description}</p>
+              <p className="text-white/80 leading-relaxed mb-6 text-sm">{project.description}</p>
 
-              <div className="flex flex-wrap gap-3 mb-8">
+              <div className="flex flex-wrap gap-2 mb-6">
                 {project.tech.map((tech, techIndex) => (
-                  <span key={techIndex} className="px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-full text-sm font-medium hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20">
+                  <span key={techIndex} className="px-3 py-1 bg-white/10 backdrop-blur-lg text-white rounded-full text-xs font-medium hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20">
                     {tech}
                   </span>
                 ))}
               </div>
 
-              <div className="flex gap-4">
+              <div className="flex gap-3">
                 {project.githubUrl ? (
                   <a 
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20"
+                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20 text-sm"
                   >
-                    <Github className="w-5 h-5" />
+                    <Github className="w-4 h-4" />
                     Code
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20">
-                    <Github className="w-5 h-5" />
+                  <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-xl hover:scale-110 transition-all duration-300 shadow-lg border border-primary-500/20 text-sm">
+                    <Github className="w-4 h-4" />
                     Code
                   </button>
                 )}
@@ -276,15 +276,15 @@ const Projects = () => {
                     href={project.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20"
+                    className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20 text-sm"
                   >
-                    <ExternalLink className="w-5 h-5" />
-                    View Project
+                    <ExternalLink className="w-4 h-4" />
+                    View
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20">
-                    <ExternalLink className="w-5 h-5" />
-                    View Project
+                  <button className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-xl hover:bg-white/20 hover:scale-110 transition-all duration-300 border border-primary-500/20 text-sm">
+                    <ExternalLink className="w-4 h-4" />
+                    View
                   </button>
                 )}
               </div>
