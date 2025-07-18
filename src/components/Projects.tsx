@@ -46,7 +46,7 @@ const Projects = () => {
       tech: ["Linux", "Docker", "Python", "Machine Learning", "Flask", "Full Stack", "REST API", "Networking"],
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-docker-machinelearning-activity-7351299049750151170-Dd55?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
-      category: "major"
+      category: "mini"
     },
     {
       title: "Microsoft Uses Kubernetes (Azure Kubernetes Service)",
