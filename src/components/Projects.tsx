@@ -153,6 +153,14 @@ const Projects = () => {
       gradient: "from-primary-300 to-primary-500",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-jupyternotebook-systemmonitoring-activity-7350728324945457152-Fk7n?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "mini"
+    },
+    {
+      title: "Python Automation: RAM Monitoring & More",
+      description: "Explored exciting Python automation tasks using Jupyter Notebook!\n- Read RAM data using Python\n- Used shutil and psutil to fetch memory details\n- Created a custom digital image using Python shapes\n- Built a Google Search automation tool\n- Combined it all into one streamlined solution\nThese mini projects helped sharpen my coding, logic, and automation skills.",
+      tech: ["Python", "Automation", "RAM Monitoring", "Jupyter Notebook", "psutil", "shutil", "Google Search"],
+      gradient: "from-green-900 to-green-800",
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-rammonitoring-activity-7351845696645349376-BcCg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      category: "mini"
     }
   ];
 
