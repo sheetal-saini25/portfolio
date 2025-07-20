@@ -163,17 +163,17 @@ const Projects = () => {
   return (
     <section ref={sectionRef} id="projects" className="py-32 relative overflow-hidden bg-black">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className="text-center mb-16">
+        <div className={`text-center mb-16 transition-all duration-[1800ms] ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
           <h2 className="text-6xl font-bold text-white mb-6">
             Projects
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full"></div>
+          <div className="w-32 h-2 bg-gradient-to-r from-[var(--accent)] via-[var(--accent-light)] to-[var(--accent)] mx-auto rounded-full"></div>
         </div>
 
         <h3 className="text-4xl font-semibold text-white mb-8 mt-12">Major Projects</h3>
         <div className="grid md:grid-cols-2 gap-10 mb-16">
           {majorProjects.map((project, index) => (
-            <div key={index} className="group bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20">
+            <div key={index} className={`group rounded-3xl p-10 shadow-2xl border border-[var(--border)] bg-[var(--card-bg)] transition-all duration-[1800ms] ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}> 
               <div className="flex items-center gap-4 mb-6">
                 <div className={`p-3 rounded-2xl bg-gradient-to-r ${project.gradient} text-white shadow-lg`}>
                   <Code className="w-6 h-6" />
@@ -182,30 +182,27 @@ const Projects = () => {
                   {project.title}
                 </h3>
               </div>
-
               <p className="text-white/80 leading-relaxed mb-8 text-lg">{project.description}</p>
-
               <div className="flex flex-wrap gap-3 mb-8">
                 {project.tech.map((tech, techIndex) => (
-                  <span key={techIndex} className="px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-full text-sm font-medium border border-primary-500/20">
+                  <span key={techIndex} className="px-4 py-2 bg-white/10 text-white rounded-full text-sm font-medium border border-[var(--accent)]">
                     {tech}
                   </span>
                 ))}
               </div>
-
               <div className="flex gap-4">
                 {project.githubUrl ? (
                   <a 
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl shadow-lg border border-primary-500/20"
+                    className="flex items-center gap-2 px-6 py-3 bg-[var(--accent)] text-black rounded-2xl shadow-lg border border-[var(--accent)] hover:bg-[var(--accent-light)] transition-colors duration-500"
                   >
                     <Github className="w-5 h-5" />
                     Code
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-2xl shadow-lg border border-primary-500/20">
+                  <button className="flex items-center gap-2 px-6 py-3 bg-[var(--accent)] text-black rounded-2xl shadow-lg border border-[var(--accent)]">
                     <Github className="w-5 h-5" />
                     Code
                   </button>
@@ -215,13 +212,13 @@ const Projects = () => {
                     href={project.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl border border-primary-500/20"
+                    className="flex items-center gap-2 px-6 py-3 bg-white/10 text-white rounded-2xl border border-[var(--accent)] hover:bg-[var(--accent-light)] hover:text-black transition-colors duration-500"
                   >
                     <ExternalLink className="w-5 h-5" />
                     View Project
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-6 py-3 bg-white/10 backdrop-blur-lg text-white rounded-2xl border border-primary-500/20">
+                  <button className="flex items-center gap-2 px-6 py-3 bg-white/10 text-white rounded-2xl border border-[var(--accent)]">
                     <ExternalLink className="w-5 h-5" />
                     View Project
                   </button>
@@ -234,7 +231,7 @@ const Projects = () => {
         <h3 className="text-4xl font-semibold text-white mb-8 mt-12">Mini Projects</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
           {miniProjects.map((project, index) => (
-            <div key={index} className="group bg-white/10 backdrop-blur-xl rounded-2xl p-6 shadow-2xl border border-primary-500/20">
+            <div key={index} className={`group rounded-2xl p-6 shadow-2xl border border-[var(--border)] bg-[var(--card-bg)] transition-all duration-[1800ms] ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}> 
               <div className="flex items-center gap-3 mb-4">
                 <div className={`p-2 rounded-xl bg-gradient-to-r ${project.gradient} text-white shadow-lg`}>
                   <Code className="w-5 h-5" />
@@ -243,30 +240,27 @@ const Projects = () => {
                   {project.title}
                 </h3>
               </div>
-
               <p className="text-white/80 leading-relaxed mb-6 text-sm">{project.description}</p>
-
               <div className="flex flex-wrap gap-2 mb-6">
                 {project.tech.map((tech, techIndex) => (
-                  <span key={techIndex} className="px-3 py-1 bg-white/10 backdrop-blur-lg text-white rounded-full text-xs font-medium border border-primary-500/20">
+                  <span key={techIndex} className="px-3 py-1 bg-white/10 text-white rounded-full text-xs font-medium border border-[var(--accent)]">
                     {tech}
                   </span>
                 ))}
               </div>
-
               <div className="flex gap-3">
                 {project.githubUrl ? (
                   <a 
                     href={project.githubUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-xl shadow-lg border border-primary-500/20 text-sm"
+                    className="flex items-center gap-2 px-4 py-2 bg-[var(--accent)] text-black rounded-xl shadow-lg border border-[var(--accent)] hover:bg-[var(--accent-light)] transition-colors duration-500 text-sm"
                   >
                     <Github className="w-4 h-4" />
                     Code
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-dark-800 to-dark-900 text-white rounded-xl shadow-lg border border-primary-500/20 text-sm">
+                  <button className="flex items-center gap-2 px-4 py-2 bg-[var(--accent)] text-black rounded-xl shadow-lg border border-[var(--accent)] text-sm">
                     <Github className="w-4 h-4" />
                     Code
                   </button>
@@ -276,13 +270,13 @@ const Projects = () => {
                     href={project.linkedinUrl}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-xl border border-primary-500/20 text-sm"
+                    className="flex items-center gap-2 px-4 py-2 bg-white/10 text-white rounded-xl border border-[var(--accent)] hover:bg-[var(--accent-light)] hover:text-black transition-colors duration-500 text-sm"
                   >
                     <ExternalLink className="w-4 h-4" />
                     View
                   </a>
                 ) : (
-                  <button className="flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-lg text-white rounded-xl border border-primary-500/20 text-sm">
+                  <button className="flex items-center gap-2 px-4 py-2 bg-white/10 text-white rounded-xl border border-[var(--accent)] text-sm">
                     <ExternalLink className="w-4 h-4" />
                     View
                   </button>
