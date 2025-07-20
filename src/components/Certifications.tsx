@@ -58,7 +58,7 @@ const Certifications = () => {
             </h3>
             <div className="space-y-8">
               {certifications.map((cert, index) => (
-                <div key={index} className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 border border-primary-500/20 group hover:scale-105 hover:border-primary-400/40">
+                <div key={index} className="rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 border border-primary-500/20 group hover:scale-105 hover:border-primary-400/40">
                   <div className="flex items-start gap-6">
                     <div className={`p-4 rounded-full bg-gradient-to-r ${cert.color} text-white group-hover:scale-125 transition-transform duration-500 shadow-lg animate-glow`}>
                       <Award className="w-8 h-8" />
@@ -92,13 +92,13 @@ const Certifications = () => {
               <Calendar className="w-8 h-8 text-primary-300 animate-pulse" />
               Future Certifications
             </h3>
-            <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 border border-primary-500/20 shadow-2xl">
+            <div className="rounded-3xl p-10 border border-primary-500/20 shadow-2xl">
               <p className="text-white/80 mb-8 text-lg leading-relaxed">
                 I'm continuously expanding my expertise through professional certifications. Here are the certifications I'm planning to pursue:
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 {upcomingCertifications.map((cert, index) => (
-                  <div key={index} className={`flex items-center gap-4 p-6 bg-white/10 backdrop-blur-lg rounded-2xl shadow-lg hover:shadow-primary-500/20 transition-all duration-500 hover:scale-105 border border-primary-500/20 delay-${index * 100} hover:border-primary-400/40`}>
+                  <div key={index} className={`flex items-center gap-4 p-6 rounded-2xl shadow-lg hover:shadow-primary-500/20 transition-all duration-500 hover:scale-105 border border-primary-500/20 delay-${index * 100} hover:border-primary-400/40`}>
                     <div className="w-3 h-3 bg-gradient-to-r from-primary-400 to-primary-300 rounded-full animate-pulse"></div>
                     <span className="text-white font-medium text-lg">{cert}</span>
                   </div>

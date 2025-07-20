@@ -23,19 +23,19 @@ const About = () => {
   }, []);
 
   return (
-    <section ref={sectionRef} id="about" className="py-32 relative overflow-hidden">
+    <section ref={sectionRef} id="about" className="py-32 relative overflow-hidden bg-black">
       <div className="container mx-auto px-6 lg:px-12">
-        <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
+        <div className="text-center mb-16">
           <h2 className="text-6xl font-bold text-white mb-6">
             About Me
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full animate-glow"></div>
+          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full"></div>
         </div>
 
         <div className="max-w-6xl mx-auto">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div className={`space-y-8 transition-all duration-1000 delay-200 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-20 opacity-0'}`}>
-              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40">
+            <div className="space-y-8">
+              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-gradient-to-r from-primary-600 to-primary-500 rounded-xl shadow-lg">
                     <MapPin className="w-6 h-6 text-white" />
@@ -47,7 +47,7 @@ const About = () => {
                 </p>
               </div>
 
-              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40">
+              <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-gradient-to-r from-primary-500 to-primary-400 rounded-xl shadow-lg">
                     <Code className="w-6 h-6 text-white" />
@@ -60,7 +60,7 @@ const About = () => {
               </div>
             </div>
 
-            <div className={`bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-1000 delay-400 hover:scale-105 border border-primary-500/20 hover:border-primary-400/40 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}>
+            <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl border border-primary-500/20">
               <div className="flex items-center gap-4 mb-8">
                 <div className="p-3 bg-gradient-to-r from-primary-400 to-primary-300 rounded-xl shadow-lg">
                   <Heart className="w-6 h-6 text-white" />
@@ -74,7 +74,7 @@ const About = () => {
                 Currently expanding my skills through hands-on experience with modern development tools and cloud technologies, I'm committed to building innovative solutions that make a difference.
               </p>
               <div className="flex items-center gap-3">
-                <Rocket className="w-6 h-6 text-primary-400 animate-bounce" />
+                <Rocket className="w-6 h-6 text-primary-400" />
                 <span className="text-transparent bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text font-semibold text-lg">Always learning, always growing</span>
               </div>
             </div>
