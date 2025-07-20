@@ -16,25 +16,8 @@ const Hero = () => {
   }, []);
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-      {/* Enhanced animated background particles */}
-      <div className="absolute inset-0">
-        {[...Array(150)].map((_, i) => (
-          <div
-            key={i}
-            className="absolute animate-pulse"
-            style={{
-              left: `${Math.random() * 100}%`,
-              top: `${Math.random() * 100}%`,
-              animationDelay: `${Math.random() * 5}s`,
-              animationDuration: `${3 + Math.random() * 4}s`
-            }}
-          >
-            <div className={`w-${Math.random() > 0.5 ? '1' : '2'} h-${Math.random() > 0.5 ? '1' : '2'} bg-gradient-to-r from-primary-400 to-primary-300 rounded-full opacity-${Math.random() > 0.5 ? '40' : '60'}`}></div>
-          </div>
-        ))}
-      </div>
-
+    <section id="hero" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 bg-black">
+      {/* Removed animated background particles */}
       <div className="container mx-auto px-6 lg:px-12 z-10">
         {/* Name positioned below navbar with slide-down animation */}
         <motion.div
