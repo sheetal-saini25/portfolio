@@ -156,7 +156,7 @@ const Projects = () => {
     }
   ];
 
-  const majorProjects = projects.filter(p => p.category === "major");
+  const majorProjects = projects.filter(p => p.category === "major" && p.title !== "Docker in Docker (DIND) DevOps Setup");
   const miniProjects = projects.filter(p => p.category === "mini" && p.title !== "Docker in Docker (DIND) DevOps Setup");
   const caseStudies = projects.filter(p => p.category === "case");
 
