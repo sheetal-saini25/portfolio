@@ -8,9 +8,9 @@
   }
   
   body {
-    background: #000 !important;
+    background: #031f0a !important;
     color: #f3f4f6;
-    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    font-family: 'Inter', 'Poppins', 'Segoe UI', Arial, sans-serif;
     overflow-x: hidden;
   }
 }
@@ -255,8 +255,45 @@ input:focus, textarea:focus {
 }
 
 :root {
-  --accent: #7f9cf5;
-  --accent-light: #a3bffa;
-  --card-bg: #18181b;
-  --border: #23232a;
+  --primary-bg: #031f0a;
+  --card-bg: #113b1b;
+  --accent: #113b1b;
+  --accent-light: #1e4f35;
+  --text-main: #f3f4f6;
+  --text-muted: #b6c2b7;
+  --border: #1e4f35;
+}
+
+.card {
+  background: var(--card-bg);
+  color: var(--text-main);
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.12);
+  border: 1px solid var(--border);
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: var(--accent-light);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--accent);
+  border: 2px solid var(--accent);
+  border-radius: 0.75rem;
+  font-weight: 600;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-outline:hover {
+  background: var(--accent);
+  color: #fff;
 }
