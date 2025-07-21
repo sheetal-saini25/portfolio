@@ -14,11 +14,9 @@ const Education = () => {
       },
       { threshold: 0.1 }
     );
-
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
-
     return () => observer.disconnect();
   }, []);
 
@@ -27,57 +25,50 @@ const Education = () => {
       title: "Post Graduate Diploma in Computer Applications (PGDCA)",
       description: "Completed with practical exposure to software development, system programming, and database management",
       icon: <Award className="w-7 h-7" />,
-      color: "from-primary-600 to-primary-500"
+      color: "from-gray-800 to-gray-700"
     },
     {
       title: "Bachelor of Science in Computer Science (B.Sc. in CS)",
       institution: "Government College Swami Vivekanand, Harda, Madhya Pradesh",
       description: "Focused on core computer science fundamentals and programming",
       icon: <GraduationCap className="w-7 h-7" />,
-      color: "from-primary-500 to-primary-400"
+      color: "from-gray-700 to-gray-600"
     },
     {
       title: "Higher Secondary Schooling (12th Grade)",
       institution: "School in Madhya Pradesh",
       description: "Stream: Mathematics and Science",
       icon: <BookOpen className="w-7 h-7" />,
-      color: "from-primary-400 to-primary-300"
+      color: "from-gray-600 to-gray-500"
     }
   ];
 
   return (
-    <section ref={sectionRef} id="education" className="py-32 relative overflow-hidden">
+    <section ref={sectionRef} id="education" className="py-32 bg-gradient-to-b from-gray-950 via-black to-gray-900">
       <div className="container mx-auto px-6 lg:px-12">
         <div className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
           <h2 className="text-6xl font-bold text-white mb-6">
             Education
           </h2>
-          <div className="w-32 h-2 bg-gradient-to-r from-primary-400 via-primary-300 to-primary-200 mx-auto rounded-full animate-glow"></div>
+          <div className="w-32 h-2 bg-white/10 mx-auto rounded-full"></div>
         </div>
-
         <div className="max-w-5xl mx-auto">
           <div className="relative">
-            {/* Enhanced Timeline line */}
-            <div className="absolute left-10 top-0 bottom-0 w-1 bg-gradient-to-b from-primary-500 via-primary-400 to-primary-300 rounded-full animate-glow"></div>
-
+            {/* Timeline line */}
+            <div className="absolute left-10 top-0 bottom-0 w-1 bg-gradient-to-b from-gray-700 via-gray-800 to-gray-900 rounded-full"></div>
             <div className="space-y-16">
               {educationData.map((item, index) => (
                 <div key={index} className={`relative flex gap-12 group transition-all duration-1000 delay-${index * 200} ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-20 opacity-0'}`}>
-                  {/* Enhanced Timeline dot */}
-                  <div className={`flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-r ${item.color} flex items-center justify-center text-white shadow-2xl group-hover:scale-125 transition-transform duration-500 border-4 border-white/20 animate-glow`}>
-                    {item.icon}
-                  </div>
-
-                  {/* Enhanced Content */}
-                  <div className="flex-1 bg-white/10 backdrop-blur-xl rounded-3xl p-10 shadow-2xl hover:shadow-primary-500/20 transition-all duration-500 group-hover:scale-105 border border-primary-500/20 hover:border-primary-400/40">
+                  {/* Timeline dot */}
+                  <div className={`flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-r ${item.color} flex items-center justify-center text-white shadow-2xl group-hover:scale-125 transition-transform duration-500 border-4 border-white/10`}>{item.icon}</div>
+                  {/* Content */}
+                  <div className="flex-1 glass rounded-3xl p-10 shadow-2xl hover:shadow-white/10 transition-all duration-500 group-hover:scale-105 border border-gray-800">
                     <div className="flex items-start gap-4 mb-6">
-                      <Calendar className="w-6 h-6 text-primary-400 mt-1 animate-pulse" />
+                      <Calendar className="w-6 h-6 text-white/60 mt-1 animate-pulse" />
                       <div>
-                        <h3 className="text-2xl font-bold text-white mb-3">
-                          {item.title}
-                        </h3>
+                        <h3 className="text-2xl font-bold text-white mb-3">{item.title}</h3>
                         {item.institution && (
-                          <p className="text-transparent bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text font-semibold mb-3 text-lg">{item.institution}</p>
+                          <p className="text-white/70 font-semibold mb-3 text-lg">{item.institution}</p>
                         )}
                         <p className="text-white/80 leading-relaxed text-lg">{item.description}</p>
                       </div>

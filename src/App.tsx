@@ -31,43 +31,25 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-primary-950 via-dark-900 to-primary-950 flex items-center justify-center relative overflow-hidden font-poppins">
-        {/* Animated background */}
-        <div className="absolute inset-0">
-          {[...Array(50)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute animate-pulse"
-              style={{
-                left: `${Math.random() * 100}%`,
-                top: `${Math.random() * 100}%`,
-                animationDelay: `${Math.random() * 3}s`,
-                animationDuration: `${2 + Math.random() * 3}s`
-              }}
-            >
-              <div className="w-1 h-1 bg-primary-400 rounded-full opacity-60"></div>
-            </div>
-          ))}
-        </div>
-        
-        <div className="text-center z-10">
+      <div className="min-h-screen bg-primary-bg flex items-center justify-center font-poppins">
+        <div className="text-center">
           <div className="relative">
-            <div className="w-32 h-32 border-4 border-white/20 border-t-primary-400 rounded-full animate-spin mx-auto mb-8"></div>
+            <div className="w-32 h-32 border-4 border-white/20 border-t-accent rounded-full animate-spin mx-auto mb-8"></div>
             <div className="absolute inset-0 flex items-center justify-center">
-              <span className="text-4xl font-bold bg-gradient-to-r from-primary-400 to-primary-300 bg-clip-text text-transparent">SS</span>
+              <span className="text-4xl font-bold text-accent">SS</span>
             </div>
           </div>
-          <h2 className="text-3xl font-bold bg-gradient-to-r from-white to-primary-200 bg-clip-text text-transparent mb-4">
+          <h2 className="text-3xl font-bold text-text-main mb-4">
             Loading Portfolio
           </h2>
-          <p className="text-white/70 text-lg">Preparing something amazing...</p>
+          <p className="text-text-muted text-lg">Preparing something amazing...</p>
         </div>
       </div>
     );
   }
 
   return (
-    <div className="App bg-gradient-to-br from-primary-950 via-dark-900 to-primary-950 min-h-screen relative overflow-hidden font-poppins">
+    <div className="App bg-primary-bg min-h-screen text-text-main font-poppins">
       {/* Enhanced background animation */}
       <div className="fixed inset-0 z-0">
         <div className="absolute inset-0 bg-gradient-to-br from-primary-950 via-dark-900 to-primary-950 animate-gradient"></div>
