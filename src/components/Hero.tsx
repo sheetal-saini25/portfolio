@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import me from '../assets/WhatsApp Image 2025-07-24 at 7.54.05 PM.jpeg';
 
 const Hero = () => {
   const controls = useAnimation();
@@ -48,9 +49,11 @@ const Hero = () => {
           {/* Right side - Placeholder for profile (no image) */}
           <div className="flex justify-center">
             <div className="relative animate-fade-in">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full glass flex items-center justify-center text-6xl text-white/20 font-bold">
-                SS
-              </div>
+              <img
+                src={me}
+                alt="My Photo"
+                className="w-80 h-80 lg:w-96 lg:h-96 rounded-full object-cover mx-auto shadow-lg mb-4"
+              />
             </div>
           </div>
         </div>
