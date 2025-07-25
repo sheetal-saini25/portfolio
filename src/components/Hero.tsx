@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import me from '../assets/WhatsApp Image 2025-07-24 at 7.54.05 PM.jpeg';
+import { Github, Linkedin } from 'lucide-react';
 
 const Hero = () => {
   const controls = useAnimation();
@@ -42,18 +42,16 @@ const Hero = () => {
               </button>
             </div>
             <div className="flex gap-6 pt-6 justify-center lg:justify-start">
-              <span className="p-4 glass rounded-full text-white/70">GitHub</span>
-              <span className="p-4 glass rounded-full text-white/70">LinkedIn</span>
+              <span className="p-4 glass rounded-full text-white/70"><Github className="w-6 h-6" /></span>
+              <span className="p-4 glass rounded-full text-white/70"><Linkedin className="w-6 h-6" /></span>
             </div>
           </div>
           {/* Right side - Placeholder for profile (no image) */}
           <div className="flex justify-center">
             <div className="relative animate-fade-in">
-              <img
-                src={me}
-                alt="My Photo"
-                className="w-80 h-80 lg:w-96 lg:h-96 rounded-full object-cover mx-auto shadow-lg mb-4"
-              />
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full glass flex items-center justify-center text-6xl text-white/20 font-bold">
+                SS
+              </div>
             </div>
           </div>
         </div>

@@ -156,27 +156,19 @@ const Projects = () => {
     },
     {
       title: "Python Automation: RAM Monitoring & More",
-      description: "Explored exciting Python automation tasks using Jupyter Notebook!\n- Read RAM data using Python\n- Used shutil and psutil to fetch memory details\n- Created a custom digital image using Python shapes\n- Built a Google Search automation tool\n- Combined it all into one streamlined solution\nThese mini projects helped sharpen my coding, logic, and automation skills.",
+      description: "Explored exciting Python automation tasks using Jupyter Notebook! Read RAM data using Python, used shutil and psutil to fetch memory details, created a custom digital image using Python shapes, built a Google Search automation tool, and combined it all into one streamlined solution. These mini projects helped sharpen my coding, logic, and automation skills.",
       tech: ["Python", "Automation", "RAM Monitoring", "Jupyter Notebook", "psutil", "shutil", "Google Search"],
       gradient: "from-green-900 to-green-800",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-automation-rammonitoring-activity-7351845696645349376-BcCg?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "mini"
     },
     {
-      title: "Linux GUI, Backend Commands & Python Data Structures",
-      description: "Explored how Linux GUI programs map to backend terminal commands (e.g., Nautilus to ls/cp/rm, Gedit to cat/echo, System Monitor to ps/top/kill, Firefox to curl/DNS, VLC to ffmpeg). Also compared Python tuples vs lists in terms of mutability, performance, and use cases. Sharpened system-level thinking and coding efficiency.",
-      tech: ["Linux", "Python", "RedHat", "GUI", "CLI", "Tuples", "Lists", "System Programming"],
+      title: "Microservices Backend with Docker, Flask, PostgreSQL & Redis",
+      description: "Built a real-world microservices-based backend system: two independent Flask services, each containerized with Docker, orchestrated with Docker Compose. Used PostgreSQL for persistent storage and Redis for caching. Focused on service communication, isolation, and real-world DevOps practices.",
+      tech: ["Microservices", "Docker", "Flask", "PostgreSQL", "Redis", "Docker Compose", "DevOps", "Backend"],
       gradient: "from-primary-400 to-primary-300",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-python-redhat-activity-7351870654553427969-l-D6?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
-      category: "case"
-    },
-    {
-      title: "Python Tuple vs List: Data Structures Deep Dive",
-      description: "Explained the technical differences between Python lists and tuples: mutability, performance, memory usage, and use cases. Lists are mutable and dynamic, while tuples are immutable, faster, and use less memory. Provided practical rules for choosing the right data type for efficient, readable, and scalable code.",
-      tech: ["Python", "Tuple", "List", "Data Structures", "Software Engineering"],
-      gradient: "from-primary-400 to-primary-300",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-tuplevslist-datastructures-activity-7351875284784005121-cIqC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
-      category: "case"
+      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_microservices-docker-devops-activity-7354204169160814594-z6P2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      category: "major"
     }
   ];
 
