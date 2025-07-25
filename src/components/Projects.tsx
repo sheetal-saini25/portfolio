@@ -177,14 +177,6 @@ const Projects = () => {
       gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-tuplevslist-datastructures-activity-7351875284784005121-cIqC?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "case"
-    },
-    {
-      title: "Microservices Backend with Docker, Flask, PostgreSQL & Redis",
-      description: "Built a real-world microservices-based backend system: two independent Flask services, each containerized with Docker, orchestrated with Docker Compose. Used PostgreSQL for persistent storage and Redis for caching. Focused on service communication, isolation, and real-world DevOps practices.",
-      tech: ["Microservices", "Docker", "Flask", "PostgreSQL", "Redis", "Docker Compose", "DevOps", "Backend"],
-      gradient: "from-primary-400 to-primary-300",
-      linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_microservices-docker-devops-activity-7354204169160814594-z6P2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
-      category: "mini"
     }
   ];
 
