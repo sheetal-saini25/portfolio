@@ -36,7 +36,7 @@ const Skills = () => {
     {
       title: "Tools & Platforms",
       icon: <Server className="w-7 h-7" />,
-      skills: ["Git", "GitHub", "VS Code", "MongoDB", "PostgreSQL"],
+      skills: ["Git", "GitHub", "VS Code", "MongoDB"],
       color: "from-gray-600 to-gray-500"
     },
     {
