@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Server, Code, Database, Cloud, Cpu, GitBranch } from 'lucide-react';
+import { Server, Database, Cloud, Cpu, GitBranch } from 'lucide-react';
 
 const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -29,14 +29,14 @@ const Skills = () => {
     },
     {
       title: "Development",
-      icon: <Code className="w-7 h-7" />,
-      skills: ["React", "Node.js", "Python", "JavaScript", "TypeScript"],
+      icon: <Server className="w-7 h-7" />,
+      skills: ["React", "Node.js", "Python", "JavaScript"],
       color: "from-gray-700 to-gray-600"
     },
     {
       title: "Tools & Platforms",
       icon: <Server className="w-7 h-7" />,
-      skills: ["Git", "GitHub", "VS Code", "MongoDB", "PostgreSQL"],
+      skills: ["Git", "GitHub", "VS Code", "MongoDB"],
       color: "from-gray-600 to-gray-500"
     },
     {

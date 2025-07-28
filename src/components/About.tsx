@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion, useAnimation } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
-import { MapPin, Heart, Code, Rocket } from 'lucide-react';
+import { MapPin, Heart, Rocket } from 'lucide-react';
 
 const About = () => {
   const controls = useAnimation();
@@ -38,7 +38,7 @@ const About = () => {
               <div className="glass rounded-3xl p-10 shadow-2xl border border-gray-800">
                 <div className="flex items-center gap-4 mb-6">
                   <div className="p-3 bg-black/40 rounded-xl shadow-lg">
-                    <Code className="w-6 h-6 text-white" />
+                    <Heart className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-2xl font-semibold text-white">Tech Enthusiast</h3>
                 </div>

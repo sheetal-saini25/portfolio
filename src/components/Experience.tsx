@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Briefcase, Code, GitBranch, Container, Settings } from 'lucide-react';
+import { Briefcase, GitBranch, Container, Settings } from 'lucide-react';
 
 const Experience = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,7 +24,6 @@ const Experience = () => {
 
   const tools = [
     { name: 'Git', icon: <GitBranch className="w-6 h-6" /> },
-    { name: 'GitHub', icon: <Code className="w-6 h-6" /> },
     { name: 'Jenkins', icon: <Settings className="w-6 h-6" /> },
     { name: 'Docker', icon: <Container className="w-6 h-6" /> },
     { name: 'Kubernetes', icon: <Container className="w-6 h-6" /> }

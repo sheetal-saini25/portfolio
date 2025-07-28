@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, Code, Github, Linkedin, Mail } from 'lucide-react';
+import { Heart, Github, Linkedin, Mail } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
         <div className="border-t border-gray-800 mt-16 pt-8 text-center">
           <p className="text-white/70 flex items-center justify-center gap-2 text-lg">
-            Made with <Heart className="w-5 h-5 text-white/60 fill-current animate-pulse" /> and <Code className="w-5 h-5 text-white/60" /> by Sheetal Saini
+            Made with <Heart className="w-5 h-5 text-white/60 fill-current animate-pulse" /> by Sheetal Saini
           </p>
           <p className="text-white/50 mt-3">
             © 2024 Sheetal Saini. All rights reserved.

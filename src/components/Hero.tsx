@@ -27,12 +27,9 @@ const Hero = () => {
             <div className="space-y-6">
               <div className="text-3xl lg:text-4xl font-light h-12 flex items-center justify-center lg:justify-start">
                 <span className="mr-3">I'm a</span>
-                <span className="text-white font-semibold animate-fade-in">DevOps Intern</span>
+                <span className="text-white font-semibold animate-fade-in">tech intern @ LinuxWorld informatics pvt Ltd</span>
               </div>
             </div>
-            <p className="text-xl text-white/80 leading-relaxed max-w-lg text-center lg:text-left">
-              Passionate about DevOps, Full Stack Development, and emerging technologies like Machine Learning and Agentic AI.
-            </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center lg:justify-start">
               <button className="px-10 py-4 glass rounded-full font-semibold transition-all duration-300 hover:scale-105 hover:shadow-2xl text-white">
                 Download Resume

@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { ExternalLink, Github, Code } from 'lucide-react';
+import { ExternalLink, Github } from 'lucide-react';
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -25,8 +25,8 @@ const Projects = () => {
   const projects = [
     {
       title: "DevOps Pipeline Automation",
-      description: "Automated CI/CD pipeline using Jenkins, Docker, and Kubernetes for seamless deployment",
-      tech: ["Jenkins", "Docker", "Kubernetes", "Git"],
+      description: "Automated CI/CD pipeline using Jenkins, Docker, and Git for seamless deployment",
+      tech: ["Jenkins", "Docker", "Git"],
       gradient: "from-primary-300 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_devops-cicd-firstproject-activity-7348232451946680323-4_aV?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       githubUrl: "https://github.com/sheetal-saini25/Devops_project1",
@@ -43,7 +43,7 @@ const Projects = () => {
     {
       title: "Linux, Docker, Python & Machine Learning Hands-on Projects",
       description: "Hands-on with real-world tech tasks: Linux networking, Docker container management, Python scripting, and machine learning projects (house price prediction, salary prediction, error visualization). Built Flask full stack apps and REST APIs.",
-      tech: ["Linux", "Docker", "Python", "Machine Learning", "Flask", "Full Stack", "REST API", "Networking"],
+      tech: ["Linux", "Docker", "Python", "Machine Learning", "Flask", "Full Stack", "Networking"],
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linux-docker-machinelearning-activity-7351299049750151170-Dd55?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "mini"
@@ -98,8 +98,8 @@ const Projects = () => {
     },
     {
       title: "Instagram Automation with Python",
-      description: "Internship project automating Instagram photo posting using Python and the instagrapi library. Successfully logged in, uploaded a photo with a caption, and learned real-world API-based automation for social media tasks.",
-      tech: ["Python", "instagrapi", "Instagram API", "Automation", "Internship"],
+      description: "Project automating Instagram photo posting using Python and the instagrapi library. Successfully logged in, uploaded a photo with a caption, and learned real-world API-based automation for social media tasks.",
+      tech: ["Python", "instagrapi", "Instagram API", "Automation"],
       gradient: "from-primary-500 to-primary-400",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-internshipproject-instagramautomation-activity-7347550407201599488-HTbz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "mini"
@@ -114,17 +114,17 @@ const Projects = () => {
     },
     {
       title: "Dream Analyzer & Sweet Dreams Tips (LLM Streamlit App)",
-      description: "A Streamlit web app built during LinuxWorld Internship. Uses a Large Language Model (LLM) to analyze dream types and provide personalized sleep tips for mental wellness. Enter your dream, get insights and AI-powered advice for better sleep.",
-      tech: ["Python", "Streamlit", "LLM", "AI", "Mental Health", "Internship"],
+      description: "A Streamlit web app built during LinuxWorld. Uses a Large Language Model (LLM) to analyze dream types and provide personalized sleep tips for mental wellness. Enter your dream, get insights and AI-powered advice for better sleep.",
+      tech: ["Python", "Streamlit", "LLM", "AI", "Mental Health"],
       gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_linuxworldinternship-streamlit-llm-activity-7346014871454429184-jgf3?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       githubUrl: "https://github.com/sheetal-saini25/dream",
       category: "mini"
     },
     {
-      title: "Python LinuxWorld Internship: Real-Time Practice",
+      title: "Python LinuxWorld: Real-Time Practice",
       description: "Hands-on Python learning experience as an intern at LinuxWorld Informatics Pvt Ltd. Practiced Python using Jupyter Notebook and command prompt, gaining practical understanding of how Python interacts with the system.",
-      tech: ["Python", "Jupyter Notebook", "Command Line", "Internship", "LinuxWorld"],
+      tech: ["Python", "Jupyter Notebook", "Command Line", "LinuxWorld"],
       gradient: "from-primary-300 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_python-linuxworld-internship-activity-7342933092719812608-yMew?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       githubUrl: "https://github.com/sheetal-saini25/menu_base/blob/main/pages/Python_Tasks.py",
@@ -144,6 +144,7 @@ const Projects = () => {
       tech: ["JavaScript", "Geolocation API", "Google Maps API", "Places API", "Camera API", "Email API", "WhatsApp API", "Navigation API", "Frontend Development"],
       gradient: "from-primary-400 to-primary-200",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_javascript-webdevelopment-geolocation-activity-7349503909591199781-JZD5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
+      githubUrl: "https://github.com/sheetal-saini25/menu_base/blob/main/pages/JS_Tasks.py",
       category: "mini"
     },
     {
@@ -163,9 +164,9 @@ const Projects = () => {
       category: "mini"
     },
     {
-      title: "Microservices Backend with Docker, Flask, PostgreSQL & Redis",
-      description: "Built a real-world microservices-based backend system: two independent Flask services, each containerized with Docker, orchestrated with Docker Compose. Used PostgreSQL for persistent storage and Redis for caching. Focused on service communication, isolation, and real-world DevOps practices.",
-      tech: ["Microservices", "Docker", "Flask", "PostgreSQL", "Redis", "Docker Compose", "DevOps", "Backend"],
+      title: "Microservices Backend with Docker & Flask",
+      description: "Built a real-world microservices-based backend system: two independent Flask services, each containerized with Docker, orchestrated with Docker Compose. Focused on service communication, isolation, and real-world DevOps practices.",
+      tech: ["Microservices", "Docker", "Flask", "Docker Compose", "DevOps", "Backend"],
       gradient: "from-primary-400 to-primary-300",
       linkedinUrl: "https://www.linkedin.com/posts/sheetal-saini-b33273371_microservices-docker-devops-activity-7354204169160814594-z6P2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFwNuZcBvPg4CF_HD5n9LpE19Ks0gVSi5LQ",
       category: "major"
@@ -191,9 +192,6 @@ const Projects = () => {
           {majorProjects.map((project, index) => (
             <div key={index} className={`group rounded-3xl p-10 shadow-2xl border border-gray-800 glass transition-all duration-[1800ms] ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}> 
               <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 rounded-2xl bg-black/40 text-white shadow-lg">
-                  <Code className="w-6 h-6" />
-                </div>
                 <h3 className="text-2xl font-bold text-white">
                   {project.title}
                 </h3>
@@ -249,9 +247,6 @@ const Projects = () => {
           {miniProjects.map((project, index) => (
             <div key={index} className={`rounded-2xl p-8 shadow-2xl border border-gray-800 glass transition-all duration-[1800ms] ease-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}> 
               <div className="flex items-center gap-4 mb-4">
-                <div className="p-3 rounded-full bg-black/40 text-white shadow-lg">
-                  <Code className="w-7 h-7" />
-                </div>
                 <h3 className="text-2xl font-bold text-white">
                   {project.title}
                 </h3>
@@ -265,7 +260,8 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-4">
-                {project.githubUrl ? (
+                {/* Remove Code button for Automated WhatsApp Messaging with Python */}
+                {project.title !== "Automated WhatsApp Messaging with Python" && project.githubUrl ? (
                   <a 
                     href={project.githubUrl}
                     target="_blank"
@@ -275,7 +271,7 @@ const Projects = () => {
                     <Github className="w-5 h-5" />
                     Code
                   </a>
-                ) : (
+                ) : project.title !== "Automated WhatsApp Messaging with Python" && (
                   <button className="flex items-center gap-2 px-7 py-3 bg-white/10 text-white rounded-xl font-semibold shadow text-base">
                     <Github className="w-5 h-5" />
                     Code
@@ -307,9 +303,6 @@ const Projects = () => {
           {caseStudies.map((project, index) => (
             <div key={index} className={`group glass rounded-3xl p-10 shadow-2xl hover:shadow-white/10 transition-all duration-1000 hover:scale-105 border border-gray-800 delay-${index * 200} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-20 opacity-0'}`}>
               <div className="flex items-center gap-4 mb-6">
-                <div className="p-3 rounded-2xl bg-black/40 text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  <Code className="w-6 h-6" />
-                </div>
                 <h3 className="text-2xl font-bold text-white">
                   {project.title}
                 </h3>
@@ -323,7 +316,8 @@ const Projects = () => {
                 ))}
               </div>
               <div className="flex gap-4">
-                {project.githubUrl ? (
+                {/* Remove Code button for all case studies */}
+                {false && project.githubUrl ? (
                   <a 
                     href={project.githubUrl}
                     target="_blank"
@@ -333,7 +327,7 @@ const Projects = () => {
                     <Github className="w-5 h-5" />
                     Code
                   </a>
-                ) : (
+                ) : false && (
                   <button className="flex items-center gap-2 px-6 py-3 bg-black/40 text-white rounded-2xl hover:scale-110 transition-all duration-300 shadow-lg border border-gray-700">
                     <Github className="w-5 h-5" />
                     Code
